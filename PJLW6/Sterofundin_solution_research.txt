@@ -1,0 +1,6 @@
+Sterofundinsolution: 
+	Ingredients:
+		solution ingredient1
+		solution ingredient2
+	Is freely available:
+		true

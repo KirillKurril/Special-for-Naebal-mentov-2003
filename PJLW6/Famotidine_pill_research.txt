@@ -1,0 +1,6 @@
+Famotidinepill: 
+	Ingredients:
+		pill ingredient1
+		pill ingredient2
+	Is freely available:
+		false

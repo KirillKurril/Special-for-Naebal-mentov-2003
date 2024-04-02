@@ -1,0 +1,6 @@
+MiramistinOintment: 
+	Ingredients:
+		ointment ingredient1
+		ointment ingredient2
+	Is freely available:
+		false
