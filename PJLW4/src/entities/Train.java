@@ -103,7 +103,7 @@ public class Train extends Transport {
             this.wagons = train.wagons;
 
         } catch (IOException e) {
-            System.out.println("Ошибка при чтении файла или десериализации: " + e.getMessage());
+            System.out.println("File read or deserialization error: " + e.getMessage());
         }
     }
 }
