@@ -1,0 +1,43 @@
+// public static String processText(String text)
+    // {
+    //     HashMap<Integer, String> splitedText = new HashMap<>();
+    //     HashMap<Integer, String> onVowels = new HashMap<>();
+    //     ArrayList<String> temp = new ArrayList<String>();
+
+    //     String[] words = text.split("\\s+");
+
+    //     for (int i = 0; i < words.length; i++) 
+    //     {
+    //         splitedText.put(i, words[i]);
+    //         if (isVowel(words[i].charAt(0)))
+    //             onVowels.put(i, words[i]);
+
+    //         System.out.print(splitedText.get(i) + " : " + onVowels.get(i) + "\n");
+    //     }
+
+    //     for ( Integer key : onVowels.keySet())
+    //         temp.add(onVowels.get(key));
+        
+    //     Collections.sort(temp);
+
+    //     int i = 0;
+    //     for ( Integer key : onVowels.keySet())
+    //     {
+    //         onVowels.put(key, temp.get(i++));
+    //         System.out.print(onVowels.get(key) + " ");
+    //     }
+
+    //     for ( Integer key : onVowels.keySet())
+    //     {
+    //         System.out.print(splitedText.get(key) + " : " + onVowels.get(key) + "\n");
+    //         splitedText.put(key, onVowels.get(key));
+    //     } 
+
+    //     temp.clear();
+    //     for ( Integer key : splitedText.keySet()) 
+    //         temp.add(splitedText.get(key));
+
+    //     String processedText = String.join(" ", temp);
+    //     return processedText;
+    // }
+
